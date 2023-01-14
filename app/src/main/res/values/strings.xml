@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ana Helper</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="internet">Internet</string>
+    <string name="codes">Codes</string>
+    <string name="calculator">Calculator</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="services">Services</string>
+    <string name="price">Price</string>
+    <string name="what">What</string>
+    <string name="offer">Offer</string>
+    <string name="dum">Can you explain how these work? Where are these measurements taken from? Can you give examples with relation to the font and also language? For example, line spacing is measured from the baseline, but East Asian language have no baseline. Where is the default line spacing defined? Is it in the font itself?</string>
+    <string name="note">Note</string>
+
+</resources>

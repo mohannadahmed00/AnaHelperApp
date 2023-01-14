@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myvodafone.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_internet"
+        android:name="com.example.myvodafone.ui.internet.InternetFragment"
+        android:label="@string/internet"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_code"
+        android:name="com.example.myvodafone.ui.services.ServicesFragment"
+        android:label="@string/codes"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/nav_cal"
+        android:name="com.example.myvodafone.ui.cal.CalFragment"
+        android:label="@string/calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_offer"
+        android:name="com.example.myvodafone.ui.offer.OfferFragment"
+        android:label="@string/calculator"
+        tools:layout="@layout/fragment_services" />
+</navigation>

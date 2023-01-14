@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/nav_internet"
+        android:icon="@drawable/ic_internet"
+        android:title="@string/internet" />
+
+
+    <item
+        android:id="@+id/nav_cal"
+        android:icon="@drawable/ic_calculate"
+        android:title="@string/calculator" />
+    <item
+        android:id="@+id/nav_code"
+        android:icon="@drawable/ic_service"
+        android:title="@string/services" />
+    <item
+        android:id="@+id/nav_offer"
+        android:icon="@drawable/ic_offer"
+        android:title="@string/offer" />
+
+</menu>
